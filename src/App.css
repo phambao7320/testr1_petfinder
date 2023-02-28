@@ -1,38 +1,165 @@
-.App {
-  text-align: center;
+:root{
+  --white-color : #fff ;
+  --black-color : #000 ;
+  --text-color: #333 ;
+  --main-color: #ee4d2d ;
+  --border-color : #dbdbdb ;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Login */
 
-.App-header {
-  background-color: #282c34;
+.container-login {
+  background-image: url("https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  width: 100%;
   min-height: 100vh;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.title_form {
+  display: block;
+  margin: 0;
+  font-size: 39px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  padding-bottom: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.modal-login {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 7% 6%;
+}
+
+
+.modal-center {
+  width: 100%;
+}
+
+.wrap-form {
+  border-bottom: 2px solid #d9d9d9;
+  width: 100%;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  overflow: visible;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+  transition: 0.4s;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  height: 55px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.2;
+  min-width: 80%;
+  font-weight: 550;
+}
+.form-d-f-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon_username {
+  display: block;
+}
+
+.focus-border::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #7f7f7f;
+  transition: all 0.4s;
+}
+
+.input100:focus + .focus-border::before {
+  width: 100%;
+}
+
+.button_form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button_border {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 5px 30px 0 rgb(3 216 222 / 30%);
+}
+.button_border-radient {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+  top: 0;
+  left: -100%;
+  transition: all 0.5s;
+}
+
+.button_login {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+button {
+  outline: none !important;
+  border: none;
+  background: 0 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.button_border:hover .button_border-radient {
+  left: 0;
 }
