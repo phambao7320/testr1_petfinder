@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Ho_Chi_Minh
+X-LIC-LOCATION:Asia/Ho_Chi_Minh
+BEGIN:STANDARD
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+TZNAME:+07
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Ho_Chi_Minh:20230307T200000
+DTEND;TZID=Asia/Ho_Chi_Minh:20230307T210000
+DTSTAMP:20230306T142531Z
+ORGANIZER;CN=anna@sntsolutions.io:mailto:anna@sntsolutions.io
+UID:7vmsees1ravlqnsvp8h8vd2oqe@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sonnguyeninslife@gmail.com;X-NUM-GUESTS=0:mailto:sonnguyeninslife@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=hoangbaongoc7320@gmail.com;X-NUM-GUESTS=0:mailto:hoangbaongoc7320@g
+ mail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=anna@sntsolutions.io;X-NUM-GUESTS=0:mailto:anna@sntsolutions.io
+X-GOOGLE-CONFERENCE:https://meet.google.com/ywe-rfkr-ofn
+X-MICROSOFT-CDO-OWNERAPPTID:1917544837
+CREATED:20230306T142529Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/yw
+ e-rfkr-ofn\nOr dial: (US) +1 470-310-0362 PIN: 535860914#\nMore phone numbe
+ rs: https://tel.meet/ywe-rfkr-ofn?pin=8711134036244&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20230306T142529Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Meeting Vòng cuối Phạm Ngọc Bảo FE
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
